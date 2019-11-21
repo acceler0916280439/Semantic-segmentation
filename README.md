@@ -72,5 +72,5 @@
   
 ### 接下來，要在電腦上安裝Deeplab相關檔案(均在以下連結中):  
 * https://github.com/tensorflow/models/tree/master/research/deeplab  
-  也可將這個project的所有內容仔入本機儲存庫中，在終端打上...  
+  也可將這個project的所有內容載入本機儲存庫中，在終端打上...  
   git clone https://github.com/tensorflow/models.git
