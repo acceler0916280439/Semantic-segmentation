@@ -1,7 +1,7 @@
 # Semantic-segmentation
-The pixel-wise classification projects
+## The pixel-wise classification projects
 
-Label tool: Labelme  
+### Label tool: Labelme  
 在電腦上安裝圖片標註工具labelme 的方法：  
 1. ios 系統：  
 （注意需先於 電腦上安裝 python，打開電腦之終端機，並依序輸入以下內容...）  
@@ -29,7 +29,7 @@ Label tool: Labelme
   
 安裝完畢後直接於 mac 之終端機或 anconda prompt內輸入 labelme 即可開啟 labelme  
 
-以下的連結附有使用Deeplabv3+模型訓練前，用來處理資料集的相關檔案...  
+### 以下的連結附有使用Deeplabv3+模型訓練前，用來處理資料集的相關檔案...  
 * https://drive.google.com/open?id=14iVgd1fDy7KBt52Mrsr0O7oC8-1IQi-_  
   連結包含以下四個檔案:  
   converting.py  
@@ -55,7 +55,7 @@ Label tool: Labelme
   該檔案用於提取label色塊圖資料夾內的所有檔名(依序紀錄每張圖片名稱，不含format的部分)  
   該檔案的引數有兩個，分別是: (label 色塊圖檔所在資料夾的path, 欲存放色塊圖檔名冊的path)  
   
-完成上述階段後，接下來需建立資料夾，名稱可任意，用於存放所有訓練資料...  
+### 完成上述階段後，接下來需建立資料夾，名稱可任意，用於存放所有訓練資料...  
 * Dataall-  
     +image  
     +mask  
@@ -70,7 +70,7 @@ Label tool: Labelme
   trainval.txt: 作為validation用的照片名稱  
   val.txt: 作為test用的照片名稱  
   
-接下來，要在電腦上安裝Deeplab相關檔案(均在以下連結中):  
+### 接下來，要在電腦上安裝Deeplab相關檔案(均在以下連結中):  
 * https://github.com/tensorflow/models/tree/master/research/deeplab
   也可將這個project的所有內容仔入本機儲存庫中，在終端打上...  
   git clone https://github.com/tensorflow/models.git
