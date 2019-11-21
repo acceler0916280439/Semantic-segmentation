@@ -17,7 +17,7 @@ x = 0 #表示pixel為紅色的數量
 y = 0 #表示pixel為黑色的數量
 
 path = input('Input your path of trainset: ')
-path = path.replace('\\', '/')
+path = path.replace('\\', '/') + '/'
 
 img_file = os.listdir(path)
 picture_amount = len(img_file)

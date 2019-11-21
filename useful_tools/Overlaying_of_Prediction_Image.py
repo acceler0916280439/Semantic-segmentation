@@ -14,7 +14,7 @@ import os
 # Overlaying_of_Prediction_Image
 
 path = input('Input your image folder path: ')
-path = path.replace('\\', '/')
+path = path.replace('\\', '/') + '/'
 img_file = os.listdir(path) #讀取整個資料夾該層的內容
 img_amount = len(img_file) #用以計算資料夾中的圖片張數
 

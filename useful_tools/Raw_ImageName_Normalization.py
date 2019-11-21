@@ -12,10 +12,10 @@ from PIL import Image
 
 
 path = input('Input your raw picture path: ')
-origin_path = path.replace('\\', '/')
+origin_path = path.replace('\\', '/') + '/'
 
 path2 = input('Input your target path: ')
-target_path = path2.replace('\\', '/')
+target_path = path2.replace('\\', '/') + '/'
 
 img_file = os.listdir(origin_path)
 file_amount = len(img_file)
@@ -30,4 +30,10 @@ for i in range(file_amount):
     print('Success to transform the picture name into %d-1_Color.png'%(i+1))
     
 print('Finished!')
+
+
+# In[ ]:
+
+
+
 
