@@ -1,14 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
 
 from PIL import Image
 import os
 
-
-# In[1]:
 
 
 i = 1
@@ -41,8 +37,6 @@ print('num of labeled pixel: {}'.format(x))
 print('num of background pixel: {}'.format(y))
 
 
-# In[ ]:
-
 
 all_pixel = width * height * picture_amount
 
@@ -55,12 +49,9 @@ wla = median/fla
 wba = median/fba
 
 
-# In[2]:
-
 
 print('確認pixel總數: {}'.format(all_pixel))
 print('確認屬於labeled之pixel數: {}'.format(all_pixel - y))
 print('確認屬於background之pixel數: {}'.format(all_pixel - x))
 print('label權重應調整為: {}'.format(wla))
 print('background權重應調整為: {}'.format(wba))
-
