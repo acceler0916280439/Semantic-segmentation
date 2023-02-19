@@ -24,7 +24,3 @@ for i in range(file_amount):
     print('Success to transform the picture name into %d-1_Color.png'%(i+1))
     
 print('Finished!')
-
-
-
-
