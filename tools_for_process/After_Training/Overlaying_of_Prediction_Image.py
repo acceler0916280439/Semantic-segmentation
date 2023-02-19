@@ -1,14 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 import cv2
 import os
-
-
-# In[2]:
 
 
 # Overlaying_of_Prediction_Image
@@ -51,10 +46,3 @@ for i in range(0, img_amount, 2): # 設定步長為2的原因:加疊兩張照片
         print('Downloading {}_overlay.png: finished!'.format(img_file[i][:-10]))
     
 print('All finished!')
-
-
-# In[ ]:
-
-
-
-
