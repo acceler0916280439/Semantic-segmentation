@@ -1,14 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 from PIL import Image
 import os
 
-
-# In[5]:
 
 
 # 讀取圖像
@@ -37,4 +34,3 @@ for i in range(picture_amount):
     result3.save('{}{}-1_Color.png'.format(picture_path, '%d'%(i + 1 + picture_amount*3)))
 
 print('Done!')
-
